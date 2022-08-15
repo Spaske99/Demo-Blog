@@ -1,0 +1,191 @@
+html,body{
+  margin: 0;
+  padding:0;
+  color:#000;
+  background-color:silver;
+}
+
+#wrapper{
+	background-color:#0d0d0d;
+	width:100%;
+	height:100%;
+	padding-top:10px;
+}
+
+a:link,
+a:visited{
+	color:#fff;
+	text-decoration:none;
+	}
+a:hover{
+	text-shadow: -2px 0 #000066, 0 2px #000066, 2px 0 #000066, 0 -2px  #000066;
+}
+h3{
+	padding:10px 0 0 0;
+	margin:0;
+}
+	
+#header{
+	width:100%;
+	height:55px;
+	color:white;
+	background-color:#0d0d0d;
+	padding:0;
+	margin:0;
+	position:relative;
+	border-bottom:3px solid #1a1a1a;
+	
+}
+
+#logo{
+	width:50%;
+	height:100%;
+	float:left;
+	background-color:#0d0d0d;
+	font-size:24px;
+	text-align:center;
+}
+	
+#menu{
+	width:50%;
+	height:100%;
+	float:left;
+	background-color:#0d0d0d;
+	font-size:24px;
+}
+
+#menu  ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:right;
+	}
+	
+#menu ul li{
+	display:inline-block;
+	}
+	
+#menu ul li a{
+	padding:15px 30px 0px 30px;
+	height:40px;
+	display:inline-block;
+	}
+	
+#menu ul li a:link,
+#menu ul li a:visited{
+	color:#fff;
+	text-decoration:none;
+	}
+	
+#menu ul a:hover{
+	background:#001a33;
+	}
+	
+#okvir{
+	border:1px solid red;
+	width:400px;
+	margin:auto;
+}
+	
+#naslov{
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+}
+.box{
+	margin:auto;
+	width:400px;
+	height:200px;
+}
+
+.form_polje{
+	margin:0;
+	padding-left:48px;
+}
+
+.polje{
+	width:300px;
+	height:25px;
+	border-radius:5px;
+	padding:0;
+	margin:0;
+}
+
+
+#prij{
+	background-color:#0099ff;
+	padding:10px;
+	border-radius:10px;
+	border:0.5px solid #0099ff;
+	
+	color:#fff;
+	cursor: pointer;
+}
+
+#prij:hover{
+	
+	border:1px solid #FFD700;
+}
+
+#dugme{
+	margin:auto;
+	padding-left:169px;
+}
+
+#reg{
+	width: 400px;
+	height: 50px;
+	margin: auto;
+	text-align:center;
+}
+
+a{
+	color: #ccffff;
+}
+
+#podnaslov{
+	color:white;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+h2{
+text-align: center;
+	color: #ccffff;
+	font-size: 30px;	
+}
+.fm{
+background-color: #00264d;
+padding:20px 0 20px 20%;
+margin: auto;
+}
+.fs {
+border: none;
+padding-left: 50px;
+padding-top: 0;
+}
+#forma{
+width: 400px;
+height: 100%;
+margin:auto;
+padding:10px 0 0 0;
+}
+#poljekom{
+background-color: lightgrey;
+width: 300px;
+height: auto;
+border-radius: 10px;
+border: 1px solid black;
+padding-left: 15px;
+padding-bottom: 15px;
+margin-left: 20px;
+}
+#forma_vest{
+background-color: #ccffff;
+width: 300px;
+height: 50px;
+border-radius: 10px;
+padding-top: 10px;
+padding-left: 50px;
+margin-left: 15px;
+}
